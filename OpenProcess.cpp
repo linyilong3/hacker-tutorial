@@ -6,6 +6,11 @@ HANDLE OpenProcessByID( const DWORD id )
 	return OpenProcess(PROCESS_ALL_ACCESS,FALSE,id);
 }
 
+void testfunc()
+{
+	
+}
+
 HANDLE OpenProcessByProcessName( const char *name )
 {
 	HANDLE hSnapshot = CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS,0); 
