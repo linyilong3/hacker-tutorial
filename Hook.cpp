@@ -3,7 +3,7 @@
 
 struct _vk_data
 {
-	//true不让系统响应该键盘消息，false响应键盘消息
+	//true锟斤拷锟斤拷系统锟斤拷应锟矫硷拷锟斤拷锟斤拷息锟斤拷false锟斤拷应锟斤拷锟斤拷锟斤拷息
 	bool no_call_next;
 	bool is_hook;
 };
@@ -14,6 +14,7 @@ struct _hook_data
 	char hook_vk_count;
 	func_key_callback call_back;
 };
+// this is test code pleas not use
 
 struct _hook_data *s_hook = NULL;
 
