@@ -18,6 +18,9 @@ struct _hook_data
 
 struct _hook_data *s_hook = NULL;
 
+struct test{
+
+}
 LRESULT CALLBACK key_board_proc(int code,WPARAM w_param,LPARAM l_param)
 {
 	if (s_hook->call_back != NULL)
